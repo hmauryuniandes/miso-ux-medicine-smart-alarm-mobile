@@ -1,1 +1,1 @@
-#miso-ux-medicine-smart-alarm-mobile
+miso-ux-medicine-smart-alarm-mobile
