@@ -7,6 +7,7 @@ import android.widget.AdapterView
 import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.GridLayout
 import android.widget.ImageView
 import android.widget.Spinner
 import androidx.activity.enableEdgeToEdge
@@ -42,11 +43,10 @@ class NotificacionActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
         })
 
-        val imageView = findViewById<ImageView>(R.id.imageView3)
-        imageView.setOnClickListener {
+        val gridL1 = findViewById<GridLayout>(R.id.notificacionGridLayout)
+        gridL1.setOnClickListener {
             startActivity(Intent(this, VerNotificacionActivity::class.java))
         }
-
 
     }
 

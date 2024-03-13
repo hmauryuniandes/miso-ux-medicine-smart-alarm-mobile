@@ -41,11 +41,11 @@ class VerNotificacionActivity : AppCompatActivity() {
 
         val pasarView = findViewById<ImageView>(R.id.imagePasar)
         pasarView.setOnClickListener {
-            startActivity(Intent(this, NotificacionActivity::class.java))
+            startActivity(Intent(this, PosponerActivity::class.java))
         }
         val tomarView = findViewById<ImageView>(R.id.imageTomar)
         tomarView.setOnClickListener {
-            startActivity(Intent(this, NotificacionActivity::class.java))
+            startActivity(Intent(this, PosponerActivity::class.java))
         }
         val posponerView = findViewById<ImageView>(R.id.imagePospon)
         posponerView.setOnClickListener {
