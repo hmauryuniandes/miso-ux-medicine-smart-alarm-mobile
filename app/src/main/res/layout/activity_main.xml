@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/buttonUsers"
+        android:id="@+id/buttonRecordatorios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -75,7 +75,7 @@
         android:layout_marginEnd="30dp"
         android:backgroundTint="@color/secondary"
         android:paddingStart="40dp"
-        android:text="@string/users"
+        android:text="@string/recordatorios"
         android:textAlignment="viewStart"
         android:textColor="@color/onSecondary"
         android:textSize="18sp"
@@ -98,9 +98,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonUsers"
-        app:layout_constraintEnd_toEndOf="@+id/buttonUsers"
-        app:layout_constraintTop_toTopOf="@+id/buttonUsers"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonRecordatorios"
+        app:layout_constraintEnd_toEndOf="@+id/buttonRecordatorios"
+        app:layout_constraintTop_toTopOf="@+id/buttonRecordatorios"
         app:srcCompat="@drawable/next" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

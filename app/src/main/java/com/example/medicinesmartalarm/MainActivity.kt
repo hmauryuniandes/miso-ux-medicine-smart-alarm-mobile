@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         buttonMedicine.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, MedicineActivity::class.java))
         })
+
+        val buttonRecordatorio = findViewById<Button>(R.id.buttonRecordatorios)
+        buttonRecordatorio.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, NotificacionActivity::class.java))
+        })
     }
 
 }

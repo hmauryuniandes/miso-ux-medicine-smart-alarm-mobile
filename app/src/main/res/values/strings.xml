@@ -49,6 +49,7 @@
     <string name="pasar">PASAR</string>
     <string name="toma">TOMAR</string>
     <string name="pospon">POSPONER</string>
+    <string name="recordatorios">RECORDATORIOS</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
