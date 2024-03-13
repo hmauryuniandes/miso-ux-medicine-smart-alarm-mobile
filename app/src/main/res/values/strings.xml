@@ -20,6 +20,15 @@
     <string name="hora">20:00</string>
     <string name="cerrar">CERRAR</string>
     <string name="tomar">Tomar dos pastillas</string>
+    <string name="posponer">Posponer notificación</string>
+    <string name="selec">Seleccionar fecha</string>
+    <string name="fecha">LUN, Feb 17</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="horas">Horas</string>
+    <string name="horap">21</string>
+    <string name="minutos">Minutos</string>
+    <string name="minutop">00</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
