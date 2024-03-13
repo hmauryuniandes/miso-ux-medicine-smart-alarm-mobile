@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             .setBottomRightCorner(CornerFamily.ROUNDED, 40F)
             .build()
 
-        var buttonMedicine = findViewById<Button>(R.id.buttonMedicines)
+        val buttonMedicine = findViewById<Button>(R.id.buttonMedicines)
         buttonMedicine.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, MedicineActivity::class.java))
         })

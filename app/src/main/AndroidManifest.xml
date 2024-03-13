@@ -16,7 +16,7 @@
             android:name=".AddMedicineActivity"
             android:exported="false" />
         <activity
-            android:name=".MedicineActivity2"
+            android:name=".MedicineActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

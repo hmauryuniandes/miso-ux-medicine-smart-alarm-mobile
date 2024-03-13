@@ -3,9 +3,17 @@
     <string name="user_name">SALEM</string>
     <string name="medicines">MEDICAMENTOS</string>
     <string name="medicines_title">Medicamentos</string>
+    <string name="medicines_add">Nuevo Medi.</string>
+    <string name="medicine_name">NOMBRE:</string>
+    <string name="medicine_type">TIPO:</string>
+    <string name="medicine_info">INFORMACIÓN EXTRA:</string>
+    <string name="medicine_photo">FOTO MEDICAMENTO</string>
+    <string name="empty"> </string>
     <string name="users">USUARIOS</string>
     <string name="back">VOLVER</string>
     <string name="add">AGREGAR</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="save">GUARDAR</string>
     <string name="aspirina">Aspirina</string>
     <string name="paracetamol">Paracetamol</string>
     <string name="naproxeno">Naproxeno</string>

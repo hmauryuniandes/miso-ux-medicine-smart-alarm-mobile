@@ -8,6 +8,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.appbar.MaterialToolbar
+import com.google.android.material.shape.CornerFamily
+import com.google.android.material.shape.MaterialShapeDrawable
 
 class MedicineActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +23,22 @@ class MedicineActivity : AppCompatActivity() {
             insets
         }
 
-        var buttonMBack = findViewById<Button>(R.id.buttonBack)
+        val toolbar = findViewById<MaterialToolbar>(R.id.materialToolbar)
+        val materialShapeDrawable = toolbar.background as MaterialShapeDrawable
+        materialShapeDrawable.shapeAppearanceModel = materialShapeDrawable.shapeAppearanceModel
+            .toBuilder()
+            .setBottomLeftCorner(CornerFamily.ROUNDED, 40F)
+            .setBottomRightCorner(CornerFamily.ROUNDED, 40F)
+            .build()
+
+        val buttonMBack = findViewById<Button>(R.id.buttonBack)
         buttonMBack.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
+        })
+
+        val buttonAdd = findViewById<Button>(R.id.buttonAddMedicine)
+        buttonAdd.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, AddMedicineActivity::class.java))
         })
     }
 }

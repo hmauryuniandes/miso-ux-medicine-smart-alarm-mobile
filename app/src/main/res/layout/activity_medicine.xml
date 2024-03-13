@@ -17,6 +17,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/medicines_title"
+        android:textColor="@color/onPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,18 +105,6 @@
         app:layout_constraintEnd_toEndOf="@+id/buttonMedicine2"
         app:layout_constraintTop_toTopOf="@+id/buttonMedicine2"
         app:srcCompat="@drawable/next" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:text="@string/medicines_title"
-        android:textColor="@color/onPrimary"
-        android:textSize="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar"
-        app:layout_constraintStart_toStartOf="@+id/materialToolbar"
-        app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
 
     <Button
         android:id="@+id/buttonBack"
