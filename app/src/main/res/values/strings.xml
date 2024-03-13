@@ -2,5 +2,11 @@
     <string name="app_name">Medicine Smart Alarm</string>
     <string name="user_name">SALEM</string>
     <string name="medicines">MEDICAMENTOS</string>
+    <string name="medicines_title">Medicamentos</string>
     <string name="users">USUARIOS</string>
+    <string name="back">VOLVER</string>
+    <string name="add">AGREGAR</string>
+    <string name="aspirina">Aspirina</string>
+    <string name="paracetamol">Paracetamol</string>
+    <string name="naproxeno">Naproxeno</string>
 </resources>
