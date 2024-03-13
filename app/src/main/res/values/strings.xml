@@ -37,6 +37,18 @@
     <string name="horap">21</string>
     <string name="minutos">Minutos</string>
     <string name="minutop">00</string>
+    <string name="vernot">Ver notificación</string>
+    <string name="frecuencia">FRECUENCIA</string>
+    <string name="unavez">Una vez por semana</string>
+    <string name="cantidad">CANTIDAD</string>
+    <string name="vcantidad">2</string>
+    <string name="formula_photo">FOTO FORMULA:</string>
+    <string name="inicio">INICIO:</string>
+    <string name="finicio">17/02/2024</string>
+    <string name="hinicio">20:00:00</string>
+    <string name="pasar">PASAR</string>
+    <string name="toma">TOMAR</string>
+    <string name="pospon">POSPONER</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
